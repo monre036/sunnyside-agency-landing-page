@@ -2,14 +2,174 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,900,90;1,9..144,900,90&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>sunnyside-agency-landing-page</title>
 </head>
 
 <body>
-    <h1>Proyecto Base</h1>
+    <header class="header">
+        <div class="top__bar">
+            <div class="logo__icon">
+                <img class="logo" src="./assets/images/logo.svg" alt="" />
+                <img id="button__menu" class="icon__menu" src="./assets/images/icon-hamburger.svg" alt="" />
+            </div>
+            <nav class="nav">
+                <ul id="menu" class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Services</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link menu__link--yellow">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title__arow">
+            <h1 class="sunnyside__title">WE ARE CREATIVE</h1>
+            <img src="./assets/images/icon-arow-down.svg" alt="" />
+        </div>
+    </header>
+    <main>
+        <article class="card__egg">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./assets/images/desktop/image-transform.jpg" />
+                <source media="(min-width: 360px)" srcset="./assets/images/mobile/image-transform.jpg" />
+                <img src="./assets/images/mobile/image-transform.jpg" alt="egg" />
+            </picture>
+            <div class="sunnyside__info">
+                <h2 class="sunnyside__subtitle">Transform your brand</h2>
+                <p class="sunnyside__text">
+                    We are a full-service creative agency specializing in helping brands
+                    grow fast. Engage your clients through compelling visuals that do
+                    most of the marketing for you.
+                </p>
+                <a class="button__main button__main--yellow" href="#">LEARN MORE</a>
+            </div>
+        </article>
+        <article class="card__cup">
+            <picture>
+                <source media="(min-width: 768px)" srcset="./assets/images/desktop/image-stand-out.jpg" />
+                <source media="(min-width: 360px)" srcset="./assets/images/mobile/image-stand-out.jpg" />
+                <img src="./assets/images/mobile/image-stand-out.jpg" alt="" />
+            </picture>
+            <div class="sunnyside__info">
+                <h2 class="sunnyside__subtitle">Stand out to the right audience</h2>
+                <p class="sunnyside__text">
+                    Using a collaborative formula of designers, researchers,
+                    photographers, videographers, and copywriters, we’ll build and
+                    extend your brand in digital places.
+                </p>
+                <a class="button__main button__main--red" href="#">LEARN MORE</a>
+            </div>
+        </article>
+        <div class="fruit">
+            <article class="card__fruit card__fruit--cherry">
+                <h2 class="fruit__subtitle fruit__subtitle--green">Graphic Design</h2>
+                <p class="fruit__text fruit__text--green">
+                    Great design makes you memorable. We deliver artwork that
+                    underscores your brand message and captures potential clients’
+                    attention.
+                </p>
+            </article>
+
+            <article class="card__fruit card__fruit--orange">
+                <h2 class="fruit__subtitle fruit__subtitle--blue">Photography</h2>
+                <p class="fruit__text fruit__text--blue">
+                    Increase your credibility by getting the most stunning, high-quality
+                    photos that improve your business image.
+                </p>
+            </article>
+        </div>
+        <div class="testimonials">
+            <h2 class="testimonials__title">CLIENT TESTIMONIALS</h2>
+            <div class="avatars">
+                <div class="testimonials__items">
+                    <img class="avatar" src="./assets/images/image-emily.jpg" alt="" />
+                    <p class="testimonials__text">
+                        We put our trust in Sunnyside and they delivered, making sure our
+                        needs were met and deadlines were always hit.
+                    </p>
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Emily R.</span>
+                        <span class="testimonials__job">Marketing Director</span>
+                    </div>
+                </div>
+                <div class="testimonials__items">
+                    <img class="avatar" src="./assets/images/image-thomas.jpg" alt="avatar" />
+                    <p class="testimonials__text">
+                        Sunnyside’s enthusiasm coupled with their keen interest in our
+                        brand’s success made it a satisfying and enjoyable experience.
+                    </p>
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Thomas S.</span>
+                        <span class="testimonials__job">Chief Operating Officer</span>
+                    </div>
+                </div>
+                <div class="testimonials__items">
+                    <img class="avatar" src="./assets/images/image-jennie.jpg" alt="" />
+                    <p class="testimonials__text">
+                        Incredible end result! Our sales increased over 400% when we
+                        worked with Sunnyside. Highly recommended!
+                    </p>
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Jennie F.</span>
+                        <span class="testimonials__job">Business Owner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <picture>
+                <source media="(min-width:768px)" srcset="./assets/images/desktop/image-gallery-milkbottles.jpg" />
+                <source media="(min-width: 360px )" srcset="./assets/images/mobile/image-gallery-milkbottles.jpg" />
+                <img src="./assets/images/mobile/image-gallery-milkbottles.jpg" alt="" />
+            </picture>
+            <picture>
+                <source media="(min-width:768px)" srcset="./assets/images/desktop/image-gallery-orange.jpg" />
+                <source media="(min-width: 360px )" srcset="./assets/images/mobile/image-gallery-orange.jpg" />
+                <img src="./assets/images/mobile/image-gallery-orange.jpg" alt="" />
+            </picture>
+            <picture>
+                <source media="(min-width:768px)" srcset="./assets/images/desktop/image-gallery-cone.jpg" />
+                <source media="(min-width: 360px )" srcset="./assets/images/mobile/image-gallery-cone.jpg" />
+                <img src="./assets/images/mobile/image-gallery-cone.jpg" alt="" />
+            </picture>
+            <picture>
+                <source media="(min-width:768px)" srcset="./assets/images/desktop/image-gallery-sugarcubes.jpg" />
+                <source media="(min-width: 360px )" srcset="./assets/images/mobile/image-gallery-sugar-cubes.jpg" />
+                <img src="./assets/images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+            </picture>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="./assets/images/logo.svg" alt="" />
+        <div class="footer__info">
+            <a class="button__footer" href="#">About</a>
+            <a class="button__footer" href="#"> Services</a>
+            <a class="button__footer" href="#">Projects</a>
+        </div>
+        <div class="logos__footer">
+            <img src="./assets/images/icon-facebook.svg" alt="" />
+            <img src="./assets/images/icon-instagram.svg" alt="" />
+            <img src="./assets/images/icon-twitter.svg" alt="" />
+            <img src="./assets/images/icon-pinterest.svg" alt="" />
+        </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
