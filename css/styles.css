@@ -307,8 +307,8 @@ body {
 .fruit__subtitle {
     font-family: "Fraunces", serif;
     font-size: 1.75rem;
-    letter-spacing: -0.2px;
-    margin: 0 0 27px;
+    letter-spacing: -0.0125rem;
+    margin: 0 0 1.6875rem;
 }
 
 .fruit__subtitle--green {
@@ -322,8 +322,8 @@ body {
 .fruit__text {
     margin: 0;
     font-size: 1rem;
-    line-height: 27px;
-    letter-spacing: -0.11px;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0069rem;
 }
 
 @media screen and (width>=768px) {
@@ -345,7 +345,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 @media screen and (width>=768px) {
@@ -368,27 +368,27 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin: 0 24px;
+    margin: 0 1.5rem;
 }
 
 .testimonials__title {
     font-family: "Fraunces", serif;
     font-size: 1rem;
     color: #a7aaad;
-    letter-spacing: 4px;
-    margin: 0 0 20px 0;
+    letter-spacing: 0.25rem;
+    margin: 0 0 1.25rem 0;
 }
 
 .testimonials__text {
     margin: 0;
     font-size: 1.125rem;
-    letter-spacing: -0.13px;
-    line-height: 32px;
+    letter-spacing: -0.0081rem;
+    line-height: 2rem;
     color: #5b636d;
 }
 
 .avatar {
-    width: 72px;
+    width: 4.5rem;
     border-radius: 50%;
 }
 
@@ -401,21 +401,21 @@ body {
 
 .testimonials__name {
     font-family: "Fraunces", serif;
-    font-size: 18px;
-    letter-spacing: -0.13px;
+    font-size: 1.125rem;
+    letter-spacing: -0.0081rem;
 }
 
 .testimonials__job {
-    font-size: 14px;
-    line-height: 25px;
-    letter-spacing: -0.01px;
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    letter-spacing: -0.0006rem;
     color: #a7aaad;
 }
 
 @media screen and (width>=768px) {
     .testimonials {
         margin-inline: auto;
-        width: 1110px;
+        width: 69.375rem;
         gap: 3.8125rem;
     }
 
@@ -434,9 +434,8 @@ body {
     }
 
     .testimonials__text {
-        margin-bottom: 11px;
+        margin-bottom: 0.6875rem;
     }
-
 }
 
 .gallery {
