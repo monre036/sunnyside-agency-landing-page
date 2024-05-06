@@ -118,7 +118,7 @@ body {
 .menu__link {
     font-size: 1.25rem;
     line-height: 1.5625rem;
-    letter-spacing: -0.14px;
+    letter-spacing: -0.0088rem;
     color: #808397;
 }
 
@@ -128,10 +128,10 @@ body {
     font-family: "Fraunces", serif;
     font-size: 0.9375rem;
     line-height: 1.5625rem;
-    width: 140px;
+    width: 8.75rem;
     background-color: #fbd600;
-    padding: 16px;
-    border-radius: 28px;
+    padding: 1rem;
+    border-radius: 1.75rem;
     color: #24303e;
 }
 
@@ -161,11 +161,11 @@ body {
 }
 
 .card__egg {
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 .card__cup {
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 @media screen and (width>=768px) {
@@ -190,7 +190,7 @@ body {
     font-size: 2.5rem;
     font-family: "Fraunces", serif;
     text-align: center;
-    letter-spacing: 6.25px;
+    letter-spacing: 0.3906rem;
     color: white;
 }
 
@@ -201,7 +201,7 @@ body {
 
     .sunnyside__title {
         font-size: 3.5rem;
-        letter-spacing: 8.75px;
+        letter-spacing: 0.5469rem;
     }
 }
 
